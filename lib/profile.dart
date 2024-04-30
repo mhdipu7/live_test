@@ -10,12 +10,15 @@ class profile extends StatelessWidget {
 
       ),
       body: Padding(
-        padding: EdgeInsets.all(12.0),
+        padding:EdgeInsets.symmetric(horizontal: 10.0),
+
         child: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+              SizedBox(height: 56,),
+
               Text(
                 "Profile",
                 style: TextStyle(
